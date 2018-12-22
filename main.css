@@ -1,0 +1,91 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Merriweather Black'), local('Merriweather-Black'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52_wFZVsf6lvg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Body */
+
+body {
+    margin: 0;
+    color: #f9f9f9;
+    background: lightgrey;
+}
+
+/* Sections */
+
+section {
+    width: 500px;
+    padding: 30px 100px 25px 25px;
+    border-bottom: 25px solid lightgrey;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+section:last-of-type {
+    border: none;
+}
+.title {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.text {
+    font-size: 15px;
+    font-family: 'Roboto', serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.button-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.button {
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', serif;
+    text-decoration: none;
+    color: #f9f9f9;
+    background: #c7c7c786;
+    border-radius: 50px;
+}
+
+/* Yellow section */
+
+#yellow-section {
+    background: url("./images/žuta.jpg");
+    background-size: cover;
+    background-position-x: -160px;
+}
+
+/* Pink section */
+
+#pink-section {
+    background: url("./images/roza.jpg");
+    background-size: cover;
+    background-position-x: -100px;
+}
+
+/* Grey section */
+
+#grey-section {
+    background: url("./images/telefon.jpg");
+    background-size: cover;
+    background-position-x: -95px;
+}
